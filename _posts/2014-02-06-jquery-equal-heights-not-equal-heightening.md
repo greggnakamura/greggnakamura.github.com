@@ -1,7 +1,8 @@
 ---
 layout: post
 title: jQuery Equal Heights not Equal Heightening
-tags: jQuery
+tags: 
+- jQuery
 ---
 
 I've used [Matt Bank's jQuery Equal Heights](https://github.com/mattbanks/jQuery.equalHeights) plugin enough to know that it just works and as it's summary states, it is a "*Simple jQuery plugin to equalize heights of multiple elements on a page.*", which is absolutely true. It's simple to use!

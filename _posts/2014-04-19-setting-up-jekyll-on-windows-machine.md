@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Setting up Jekyll on Windows
-tags: jekyll markdown
+tags: 
+- jekyll 
 ---
 
 Jekyll is not fully supported on Windows and **setting it up can be a bit of a challenge to a Ruby novice, such as myself**. These processes have been documented a few times already, but I thought it wouldn't hurt to share my experiences here.  I found this post by [Yi Zeng](http://yizeng.me/2013/05/10/setup-jekyll-on-windows/) to be quite good, but here are some others I used as well:
