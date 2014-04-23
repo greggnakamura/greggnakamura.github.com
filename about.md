@@ -3,28 +3,18 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hey there! I'm Gregg Nakamura, Web Developer, currently working for [Wakefly, Inc.](http://www.wakefly.com/), based out of Westborough, MA.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Originally in-house for the first few years, I'm now a 100% remote Wakefly employee, with my home base situated in Northern California.   
 
-There are currently two themes built on Poole:
+Born and raised in Southern California (San Fernando Valley), I decided to persue my Development goals while in living in Long Beach, CA, completed my degree while in Brooklyn, NY, and started my professional career in Westborough, MA in 2008.   
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+While I favor Front-end development, my duties primarily involve ASP.NET development, custom or CMS based.  My position allows me to wear quite a few hats, so needless to say, it's been and continues to be, an amazing professional experience. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+### Don't judge me!
+When I'm not hanging out with Sublime Text, I'm usually watching auto racing of some sort.  Yes, auto racing, specifically, [Formula 1](http://www.formula1.com/) ([Ferrari](http://formula1.ferrari.com/)), [IndyCar](http://www.indycar.com/), [Tudor United SportsCar](http://www.imsa.com/), & the [Pirelli World Challenge](http://www.world-challenge.com/). I always love talking racing!
 
-Some fun facts about the setup of this project include:
+Have questions or suggestions? Feel free to [email](mailto:gregg.nakamura@gmail.com) or [ping me on Twitter](https://twitter.com/greggnakamura).
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thanks for reading
