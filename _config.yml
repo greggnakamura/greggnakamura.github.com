@@ -35,8 +35,8 @@ owner:
   facebook: #username
   google:
     plus: GreggNakamura
-    analytics:
-    verify:
+    analytics: 'UA-20689499-1'
+    verify: '4w3AFFqEKmRMcWXwXYgjNNqm87egii4VNGzG7Br6FSk'
     ad-client:
     ad-slot:
   bing-verify:
