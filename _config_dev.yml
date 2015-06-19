@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:            Gregg K Nakamura
+locale:           en_US
+url:              http://localhost
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Gregg K Nakamura
+  avatar: me.jpg
+  bio: "Web Developer. I also like watching cars with numbers on them going around in circles"
+  email: gregg.nakamura@gmail.com
+  disqus-shortname: greggnakamura
+  twitter: greggnakamura
+  facebook: #username
+  google:
+    plus: GreggNakamura
+    analytics: 'UA-20689499-1'
+    verify: '4w3AFFqEKmRMcWXwXYgjNNqm87egii4VNGzG7Br6FSk'
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: greggnakamura
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: greggnakamura
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
