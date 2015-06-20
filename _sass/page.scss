@@ -225,6 +225,7 @@ $button-size: 1.5rem;
 	margin-top: 2em;
 	h1 {
 		margin-top: 0;
+		line-height: 1;
 	}
 	.post,
 	.page {
@@ -440,13 +441,13 @@ $button-size: 1.5rem;
 }
 
 /* Post content wrapper */
-.article-wrap {
+/*.article-wrap {
 	// Dotted line underlines for links
 	p > a,
 	li > a {
 		text-decoration: underline;
 	}
-}
+}*/
 
 /* Table of contents */
 .toc {

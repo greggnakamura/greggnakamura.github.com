@@ -41,9 +41,9 @@ h2 {
 a {
 	text-decoration: none;
 	color: $link-color;
-	&:visited {
+	/*&:visited {
 		color: $linkcolorvisited;
-	}
+	}*/
 	&:hover {
 		color: $linkcolorhover;
 	}
