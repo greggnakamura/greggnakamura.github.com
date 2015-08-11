@@ -49,7 +49,11 @@ Uncomment the 'app.UseTwitterAuthentication' section and add in your Keys, then 
 ## Use your Twitter Auth
 Navigate to your site and you should now see a Twitter button. Clicking this button will now send a request to Twitter to authenticate a user on your site.
 
+![screenshot of Twitter Auth Button]({{ site.url }}/images/twitter-auth-button.jpg)
 
+### Note on the Twitter App Callback URL setting
+`Response status code does not indicate success: 401 (Unauthorized).`
 
+If you do forget to add in a Callback URL, you will most likely receive this error. Just make sure your Callback URL is set in the Twitter App.
 
-
+![screenshot of Twitter Auth Button]({{ site.url }}/images/twitter-app-error.png)
