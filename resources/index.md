@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Resources
+title: Stack and Resources
 tags: [resources]
 comments: true
 ---
 
-**My daily Stack is**:
+**My daily stack is**:
 
 - Sublime Text
 - ConEmu
@@ -14,11 +14,14 @@ comments: true
 - Bitbucket & Jenkins
 - Photoshop
 - Chrome & Chromium
+- Current CMSs: Kentico, & WordPress 
 - Spotify
 
 
-**Some of my other resources**:
+**Resources**:
 
+- [CSS Tricks](https://css-tricks.com/)
+- [David Walsh](http://davidwalsh.name/)
 - [JSBin](http://jsbin.com/) 
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [WebPageTest](http://www.webpagetest.org/)
