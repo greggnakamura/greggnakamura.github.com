@@ -37,16 +37,17 @@ Once you are done adding your Application Details, agree to the terms, then '*Cr
 
 When the App is created, you will find you *Consumer Key* and *Consumer Secret* in the '*Keys and Access Tokens*' section.
 
-![screenshot of Key and Access Tokens]({{ site.url }}/images/key-and-access-tokens.jpg)
+![screenshot of Key and Access Tokens]({{ site.url }}/images/keys-and-access-tokens.jpg)
 
-## MVC implementation
+## Add Consumer Key and Secret to your MVC app
 Now that you have your Keys, we can add them into our MVC app. Find and open 'Startup.Auth.cs' in the 'App_Start' directory of your Project.
 
 Uncomment the 'app.UseTwitterAuthentication' section and add in your Keys, then save and build your Project.
 
 ![screenshot of adding Twitter Keys]({{ site.url }}/images/startup-auth.jpg)
 
-
+## Use your Twitter Auth
+Navigate to your site and you should now see a Twitter button. Clicking this button will now send a request to Twitter to authenticate a user on your site.
 
 
 
