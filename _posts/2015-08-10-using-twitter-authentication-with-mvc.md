@@ -2,7 +2,7 @@
 layout: post
 title: "Using Twitter Authentication with MVC"
 excerpt: "Setting up authentication using Twitter is incredibly simply in MVC5. Here is a quick walk-through of its implementation."
-tags: [OAuth]
+tags: [OAuth, ASP.Net, MVC]
 comments: true
 ---
 
