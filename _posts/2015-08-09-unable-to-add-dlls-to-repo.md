@@ -14,7 +14,7 @@ I did have two .gitignore files in my project, but neither had rules for `[Bb]in
 
 Turns out, I had a [global gitignore](http://stackoverflow.com/questions/15515729/git-repository-ignoring-all-dlls) file in my home directory and in this file was:
 
-    '*.dll`
+    `*.dll`
 
 I removed this rule, ran a `git status` and all the .dlls for my project were now being detected.
 
