@@ -20,7 +20,7 @@ Lets say you have a list of items and you want to find out which item was clicke
 
 Using the markup above:
 
-**[Example #1 (JS Bin) - Attach event listener to each list item](https://output.jsbin.com/rujofo)**
+**[Example #1 - Attach event listener to each list item](https://output.jsbin.com/rujofo)**
 
 <script src="https://gist.github.com/greggnakamura/5828ede31d52c4d5b5b9.js?file=jquery-child-event-delegation.js"></script>
 
@@ -38,7 +38,7 @@ The reason why this happens is because we have binded our click events to our ex
 
 Event Delegation allows us to attach an event listener to a single parent element. Once we have established this binding to the parent, we can instruct it to fire on any matching child elements.
 
-**[Example #2 (JS Bin) - Attach event listerner to parent element](https://output.jsbin.com/kezota)**
+**[Example #2 - Attach event listerner to parent element](https://output.jsbin.com/kezota)**
 
 <script src="https://gist.github.com/greggnakamura/5828ede31d52c4d5b5b9.js?file=jquery-parent-event-delegation.js"></script>
 
