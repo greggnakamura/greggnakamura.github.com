@@ -1,0 +1,25 @@
+---
+layout: page
+title: Tags
+comments: false
+---
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% for tag in sortedtags %}
+ <div class="tag-name" id="{{ tag | cgi_escape }}">{{ tag }}</div>
+ <ul class="tag-list">
+   {% for post in site.tags[tag] %}
+     {% if post.title != null %}
+       <li><a href="{{ post.url }}">{{ post.title }}</a> - <span class="date-published">{{ post.date | date: "%B %d, %Y" }}</span></li>
+     {% endif %}
+   {% endfor %}
+ </ul>
+{% endfor %}
+
+
