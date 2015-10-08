@@ -2,7 +2,7 @@
 layout: post
 title: "Kentico: Handling First and Last items in Transformations"
 excerpt: "Transformations are great for rendering content. If you need to handle the first or last item, use `DataItemIndex`"
-tags: [Kentico]
+tags: [kentico]
 comments: true
 ---
 
