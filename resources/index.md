@@ -8,27 +8,30 @@ comments: true
 **My Stack**:
 
 - HTML5, CSS, JS + jQuery
-- ASP.NET + MVC, MySQL
+- ASP.NET + MVC
 
 **Tools**
 
 - Sublime Text 3
 - Visual Studio
 - SqlServer
-- Bitbucket & Jenkins
+- Github, Bitbucket & Jenkins
 - Chrome, Canary, FireFox, IE 8+, BrowserStack, VMs
 - ConEmu, iTerm, & Powershell
 - CMSs: Kentico, Sitefinity, & WordPress
 - Photoshop
-- Spotify
+- Spotify, Slack, Skype
 
 
 **Resources**:
 
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [JSBin](http://jsbin.com/)
+- [CodePen](http://codepen.io/greggnakamura/)
 - [CSS Tricks](https://css-tricks.com/)
 - [David Walsh](http://davidwalsh.name/)
-- [JSBin](http://jsbin.com/)
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+
+
 - [WebPageTest](http://www.webpagetest.org/)
 - [Pastebin](http://pastebin.com/)
 
