@@ -1,6 +1,46 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+
+<script>
+  (function($) {
+    $.ajax({
+      url: 'https://api.github.com/users/greggnakamura/gists',
+      data: {
+          format: 'json'
+      },
+      error: function() {
+          $('#gists').html('<p>An error has occurred</p>');
+      },
+      success: function(data) {
+
+        // sort description alphabetically
+        data.sort(function (a, b) {
+          if (a.description < b.description) return -1;
+          if (a.description > b.description) return 1;
+          return 0;
+        });
+
+        $.each(data, function (index, value) {
+          var $listItem = $('<li>');
+          var $link = $('<a>', {
+            text: value.description,
+            title: value.description,
+            href: value.html_url,
+            target: '_blank'
+          });
+          var $date = moment(value.created_at, 'YYYYMMDD').fromNow();
+          $listItem
+            .append($link)
+            .append(' <em>' + $date + '</em>');
+          $('#gists').append($listItem);
+        });
+      },
+      type: 'GET'
+    });
+  })(jQuery);
+</script>
