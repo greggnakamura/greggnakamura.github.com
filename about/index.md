@@ -15,7 +15,7 @@ When I'm not Sublime Texting things, you can find me at a local racing event or 
 * [Formula 1](https://www.formula1.com/)
 * Sports Car Racing
     * [WEC](http://www.fiawec.com/)
-    * [TUDOR United SportsCar](http://www.imsa.com/series/united-sportscar)
+    * [WeatherTech United SportsCar](http://www.imsa.com/)
     * [Continental Tire](http://www.imsa.com/series/sportscar-challenge)
     * [Pirelli World Challenge](http://www.world-challenge.com/)
 * [IndyCar](http://www.indycar.com/)
