@@ -2,18 +2,17 @@
 layout: page
 title: Stack and Resources
 tags: [resources]
-comments: true
+comments: false
 ---
 
 **My Stack**:
 
-- HTML5, CSS, JS + jQuery
+- HTML, HTML5, CSS, JS + jQuery
 - ASP.NET + MVC
 
-**Tools**
+**My Tools**
 
-- Sublime Text 3
-- Visual Studio
+- Sublime Text 3, Visual Studio
 - SqlServer
 - Github, Bitbucket & Jenkins
 - Chrome, Canary, FireFox, IE 8+, BrowserStack, VMs
@@ -30,8 +29,5 @@ comments: true
 - [CodePen](http://codepen.io/greggnakamura/)
 - [CSS Tricks](https://css-tricks.com/)
 - [David Walsh](http://davidwalsh.name/)
-
-
-- [WebPageTest](http://www.webpagetest.org/)
-- [Pastebin](http://pastebin.com/)
+- [TestMyCSS](http://www.testmycss.com/)
 
