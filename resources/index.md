@@ -7,7 +7,7 @@ comments: false
 
 **My Stack**:
 
-- HTML, HTML5, CSS, JS + jQuery
+- HTML5, CSS, JS + jQuery
 - ASP.NET + MVC
 
 **My Tools**
