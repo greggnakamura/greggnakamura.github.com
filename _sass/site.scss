@@ -2,6 +2,10 @@
    Site wide styles
    ========================================================================== */
 
+.site-name {
+	margin-top: .225em;
+}
+
 article {
     line-height: $paragraph-line-height;
     padding: .3em 0;
