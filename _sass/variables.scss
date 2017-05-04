@@ -10,8 +10,8 @@ $doc-font-size: 16;
 $doc-line-height: 26;
 $paragraph-indent: false !default;
 $paragraph-line-height: 1.5;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
+$base-font: 'Lato', sans-serif;
+$heading-font: 'Lato', sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
@@ -53,7 +53,7 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-$linkcolor 		    : #0288D1;
+$linkcolor 		    : #1b75bc;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
