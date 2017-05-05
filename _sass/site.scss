@@ -6,6 +6,13 @@
 	margin-top: .225em;
 }
 
+@media only screen and (max-width: 37.5em) {
+	.no-js .nav ul,
+	.js .nav ul{
+		overflow: hidden;
+	}
+}
+
 article {
     line-height: $paragraph-line-height;
     padding: .3em 0;
