@@ -378,8 +378,9 @@ $button-size: 1.5rem;
 }
 .article-author-side,
 .article-author-bottom {
-	h3 {
+	h2 {
 		margin-bottom: 0;
+		font-size: 1.5rem;
 	}
 	p {
 		font-size: 80%;
@@ -422,13 +423,13 @@ $button-size: 1.5rem;
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
-		h3,
+		h2,
 		p,
 		.author-social {
 			display: block;
 			max-width: 125px;
 		}
-		h3 {
+		h2 {
 			margin-top: 10px;
 			margin-bottom: 10px;
 		}
@@ -440,7 +441,7 @@ $button-size: 1.5rem;
 		}
 	}
 	@media #{$large} {
-		h3,
+		h2,
 		.bio-photo,
 		p,
 		.author-social {
@@ -470,7 +471,7 @@ $button-size: 1.5rem;
 		margin-right: 10px;
 	}
 	@media #{$large} {
-		h3,
+		h2,
 		.bio-photo,
 		p,
 		.author-social {
