@@ -30,8 +30,7 @@
           var $link = $('<a>', {
             text: value.description,
             title: value.description,
-            href: value.html_url,
-            target: '_blank'
+            href: value.html_url
           });
           var $date = moment(value.created_at, 'YYYYMMDD').fromNow();
           $listItem
