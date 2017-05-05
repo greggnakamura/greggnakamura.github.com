@@ -12,10 +12,10 @@ comments: false
 
 **My Tools**
 
-- Sublime Text 3, Visual Studio
+- Sublime Text 3, Visual Studio Code, Visual Studio
 - SqlServer
 - Github, Bitbucket & Jenkins
-- Chrome, Canary, FireFox, IE 8+, BrowserStack, VMs
+- Chrome, Canary, FireFox, IE, BrowserStack, VMs
 - ConEmu, iTerm, & Powershell
 - CMSs: Kentico, Sitefinity, & WordPress
 - Photoshop
@@ -29,5 +29,4 @@ comments: false
 - [CodePen](http://codepen.io/greggnakamura/)
 - [CSS Tricks](https://css-tricks.com/)
 - [David Walsh](http://davidwalsh.name/)
-- [TestMyCSS](http://www.testmycss.com/)
 
