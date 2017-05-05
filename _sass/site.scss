@@ -2,6 +2,14 @@
    Site wide styles
    ========================================================================== */
 
+.skip-link {
+	left: -100%;
+	position: absolute;
+}
+.skip-link:focus {
+	left: 50%;
+}
+
 .site-name {
 	margin-top: .225em;
 }
@@ -14,15 +22,41 @@
 }
 
 article {
-    line-height: $paragraph-line-height;
-    padding: .3em 0;
-    .article-wrap {
-        p {
-            margin: 0 0 1rem;
-        }
-    }
-
+	line-height: $paragraph-line-height;
+	padding: .3em 0;
+	.article-wrap {
+		p {
+			margin: 0 0 1rem;
+		}
+	}
 }
+
+/* footer */
+.footer-wrap {
+	border-top: 1px solid #c4d7ff;
+	padding-top: 2em;
+	footer {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		float: none;
+	}
+}
+
+.socials {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	li {
+		display: inline-block;
+		padding: 0 1rem;
+	}
+	.author-social .fa {
+		margin-right: 0;
+	}
+}
+
 
 /*
    Selection
